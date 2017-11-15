@@ -1,0 +1,17 @@
+#!/bin/bash
+
+function app_server() {
+  # put this file at /usr/src/ to serve in system wide
+  echo "[lello] music server started."
+  /usr/local/bin/node /usr/src/lello/server.js
+}
+
+function local_server() {
+  # this allow to run local folder
+  echo "[lello] music server started."
+  node ./server.js
+}
+
+### init
+app_server
+#local_server
