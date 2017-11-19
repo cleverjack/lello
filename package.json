@@ -1,54 +1,54 @@
 {
-  "name": "lello",
-  "version": "0.0.6",
-  "description": "web based lossless music streaming server",
-  "main": "electron.js",
-  "private": true,
-  "license": "MIT",
-  "scripts": {
-    "start": "node server.js",
-    "nodemon": "nodemon server.js -e 'html css js'",
-    "postinstall": "./node_modules/grunt-cli/bin/grunt",
-    "build": "./electronres/buildpackages.sh"
-  },
-  "dependencies": {
-    "archiver": "^1.0.0",
-    "async": "^2.4.1",
-    "basic-auth-connect": "^1.0.0",
-    "body-parser": "^1.14.1",
-    "cookie-parser": "^1.4.0",
-    "errorhandler": "^1.4.2",
-    "express-http-proxy": "^0.3.0",
-    "express.oi": "0.0.19",
-    "ffbinaries": "^0.1.2",
-    "hasbin": "^1.2.3",
-    "md5": "*",
-    "mkdirp": "*",
-    "mobile-detect": "^0.4.3",
-    "musicmetadata": "^2.0.5",
-    "nedb": "*",
-    "opener": "*",
-    "request": "*",
-    "serve-favicon": "^2.3.0",
-    "similar-songs": "^0.1.3",
-    "song-search": "^0.1.0",
-    "soundcloud-resolver": "*",
-    "swig": "*",
-    "youtube-playlist-info": "^0.1.0",
-    "ytdl-core": "*"
-  },
-  "optionalDependencies": {
-    "ffmetadata-ohnx-fork": "*",
-    "fluent-ffmpeg": "~2.0.0-rc1"
-  },
-  "devDependencies": {
-    "electron-packager": "^8.2.0",
-    "electron-prebuilt": "^1.4.10",
-    "grunt": "^0.4.5",
-    "grunt-bower-install-simple": "^1.2.4",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-copy": "^0.8.2",
-    "grunt-contrib-cssmin": "^0.12.3",
-    "grunt-contrib-uglify": "^0.8.1"
-  }
+	"name": "lello",
+	"version": "0.0.6",
+	"description": "web based lossless music streaming server",
+	"main": "electron.js",
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"start": "node server.js",
+		"nodemon": "nodemon server.js -e 'html css js'",
+		"postinstall": "./node_modules/grunt-cli/bin/grunt",
+		"build": "./electronres/buildpackages.sh"
+	},
+	"dependencies": {
+		"archiver": "^1.0.0",
+		"async": "^2.4.1",
+		"basic-auth-connect": "^1.0.0",
+		"body-parser": "^1.14.1",
+		"cookie-parser": "^1.4.0",
+		"errorhandler": "^1.4.2",
+		"express-http-proxy": "^0.3.0",
+		"express.oi": "0.0.19",
+		"ffbinaries": "^0.1.2",
+		"hasbin": "^1.2.3",
+		"md5": "*",
+		"mkdirp": "*",
+		"mobile-detect": "^0.4.3",
+		"musicmetadata": "^2.0.5",
+		"nedb": "*",
+		"opener": "*",
+		"request": "*",
+		"serve-favicon": "^2.3.0",
+		"similar-songs": "^0.1.3",
+		"song-search": "^0.1.0",
+		"soundcloud-resolver": "*",
+		"swig": "*",
+		"youtube-playlist-info": "^0.1.0",
+		"ytdl-core": "*"
+	},
+	"optionalDependencies": {
+		"ffmetadata-ohnx-fork": "*",
+		"fluent-ffmpeg": "~2.0.0-rc1"
+	},
+	"devDependencies": {
+		"electron-packager": "^8.2.0",
+		"electron-prebuilt": "^1.4.10",
+		"grunt": "^0.4.5",
+		"grunt-bower-install-simple": "^1.2.4",
+		"grunt-cli": "^0.1.13",
+		"grunt-contrib-copy": "^0.8.2",
+		"grunt-contrib-cssmin": "^0.12.3",
+		"grunt-contrib-uglify": "^0.8.1"
+	}
 }
