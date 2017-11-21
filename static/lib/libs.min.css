@@ -3179,8 +3179,8 @@ tbody.collapse.in {
 }
 
 .dropdown-header {
-  color: #999;
-  font-size: 12px
+  color: #7f7f7f;
+  font-size: 14px;
 }
 
 .dropdown-backdrop {
@@ -3797,7 +3797,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 .navbar-brand {
   float: left;
-  padding: 15px;
+  padding: 2px 24px 2px 8px;
   height: 50px;
   font-size: 18px;
   line-height: 20px
