@@ -20,8 +20,8 @@
   clear: both;
   margin-top: 60px;
   box-shadow: none;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid #824ae6;
+  border-bottom: 1px solid #824ae6;
   padding-bottom: 10px;
   width: 100%;
   height: auto;
@@ -78,7 +78,7 @@
   display: block;
   bottom: 63px;
   z-index: 2;
-  background-color: #4BF;
+  background-color: #673ab7;
   padding: 2px;
   color: #fff;
 }
