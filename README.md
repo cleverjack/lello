@@ -2,6 +2,10 @@
 
 > music streaming server
 
+<p aling="left">
+  <img src="Screenshot_1.jpg" width="420">
+</p>
+
 ### Main Features
 
 - ffmpeg decoder (support all music file formats including FLAC, APE, ZIP, etc.).
